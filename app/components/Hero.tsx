@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Schedule from "./Schedule";
 
 export default function Hero() {
   return (
-    <div className="h-[50vh]">
+    <div className="h-[50vh] items-center justify-center flex flex-col">
       <div>
         <Image
           src={"/bg.png"}
@@ -12,11 +13,11 @@ export default function Hero() {
           className="object-cover -z-50 brightness-80"
         />
       </div>
-      <div className="flex flex-col justify-center items-center mt-48 md:mt-72 lg:mt-46 2xl:mt-64 max-w-7xl mx-auto">
+      <div className="flex flex-col justify-center items-center mt-48 md:mt-72 lg:mt-46 2xl:mt-120 max-w-7xl mx-auto">
         <h1 className="font-bold text-8xl md:text-9xl tracking-tight">
           DIONELA
         </h1>
-        <p className="w-[520px] text-center pt-4 px-16 md:px-0">
+        <p className="w-[520px] text-center pt-4 px-16 md:px-0 text-gray-300">
           Join Dionela for an unforgettable live performance! Get your tickets
           now for a night of great music and unforgettable moments.
         </p>
@@ -25,6 +26,9 @@ export default function Hero() {
             Buy Tickets
           </button>
         </div>
+      </div>
+      <div className="w-1/3 mx-auto ">
+        <Schedule />
       </div>
     </div>
   );

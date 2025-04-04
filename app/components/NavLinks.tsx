@@ -27,7 +27,9 @@ export default function NavLinks() {
           <Link
             href={link.href}
             className={`${
-              pathName === link.href ? "font-bold" : "text-gray-300"
+              pathName === link.href
+                ? "font-bold"
+                : "text-gray-300 hover:underline underline-offset-8"
             }`}
           >
             {link.name}
