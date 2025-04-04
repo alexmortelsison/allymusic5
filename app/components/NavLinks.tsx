@@ -9,23 +9,19 @@ const navLinks = [
     href: "/allconcerts",
   },
   {
-    name: "About",
-    href: "/about",
-  },
-  {
-    name: "Contact",
-    href: "/contact",
-  },
-  {
     name: "Photo Ops",
     href: "/photops",
+  },
+  {
+    name: "About",
+    href: "/about",
   },
 ];
 
 export default function NavLinks() {
   const pathName = usePathname();
   return (
-    <div className="flex space-x-8 pr-28">
+    <div className="md:flex space-x-8 hidden">
       {navLinks.map((link) => (
         <div key={link.href}>
           <Link

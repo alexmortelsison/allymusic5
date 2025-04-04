@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center max-w-7xl mx-auto">
+    <div className="flex justify-between items-center max-w-7xl mx-auto px-8 lg:px-0">
       <Link href={"/"}>
         <Image
           src={"/logo.png"}
@@ -17,7 +17,11 @@ export default function Navbar() {
       <div>
         <NavLinks />
       </div>
-      <div>A</div>
+      <div>
+        <button className="bg-pink-700 px-12 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
+          Contact
+        </button>
+      </div>
     </div>
   );
 }
