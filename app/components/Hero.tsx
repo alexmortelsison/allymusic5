@@ -13,8 +13,8 @@ export default function Hero() {
           className="object-cover -z-50 brightness-80"
         />
       </div>
-      <div className="flex flex-col justify-center items-center mt-48 md:mt-72 lg:mt-46 2xl:mt-120 max-w-7xl mx-auto">
-        <h1 className="font-bold text-8xl md:text-9xl tracking-tight">
+      <div className="flex flex-col justify-center items-center mt-140 md:mt-140 lg:mt-90 2xl:mt-140 max-w-7xl mx-auto">
+        <h1 className="font-bold text-8xl md:text-9xl 2xl:text-[150px] tracking-tight">
           DIONELA
         </h1>
         <p className="w-[520px] text-center pt-4 px-16 md:px-0 text-gray-300">
@@ -27,7 +27,7 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="w-1/3 mx-auto ">
+      <div className="2xl:w-1/3 mx-auto px-4">
         <Schedule />
       </div>
     </div>
