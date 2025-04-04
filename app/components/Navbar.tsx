@@ -17,9 +17,7 @@ export default function Navbar() {
       <div>
         <NavLinks />
       </div>
-      <div>
-        
-      </div>
+      <div>A</div>
     </div>
   );
 }

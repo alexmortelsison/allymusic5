@@ -12,7 +12,7 @@ export default function Hero() {
           className="object-cover -z-50 brightness-80"
         />
       </div>
-      <div className="flex flex-col justify-center items-center mt-80">
+      <div className="flex flex-col justify-center items-center mt-64 max-w-7xl mx-auto">
         <h1 className="font-bold text-9xl tracking-tight">DIONELA</h1>
         <p className="w-[520px] text-center pt-4">
           Join Dionela for an unforgettable live performance! Get your tickets
