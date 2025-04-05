@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
+import DropdownNavbar from "./DropdownNavbar";
 
 export default function Navbar() {
   return (
@@ -14,14 +15,15 @@ export default function Navbar() {
           className="object-cover"
         />
       </Link>
-      <div>
+      <div className="hidden lg:flex">
         <NavLinks />
       </div>
-      <div>
+      <div className="hidden lg:flex">
         <button className="bg-pink-700 px-12 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
           Contact
         </button>
       </div>
+      <DropdownNavbar />
     </div>
   );
 }

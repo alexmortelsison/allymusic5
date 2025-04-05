@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Schedule from "./Schedule";
+import BuyTicketButton from "./BuyTicketButton";
 
 export default function Hero() {
   return (
-    <div className="h-[50vh] items-center justify-center flex flex-col">
+    <div className="h-[50vh] items-center justify-center flex-col hidden lg:flex">
       <div>
         <Image
           src={"/bg.png"}
@@ -21,11 +22,7 @@ export default function Hero() {
           Join Dionela for an unforgettable live performance! Get your tickets
           now for a night of great music and unforgettable moments.
         </p>
-        <div className="pt-8">
-          <button className="bg-pink-700 px-16 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
-            Buy Tickets
-          </button>
-        </div>
+        <BuyTicketButton />
       </div>
       <div className="w-full 2xl:w-2/3 mx-auto px-4 md:px-8 absolute bottom-5">
         <Schedule />
