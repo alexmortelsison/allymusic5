@@ -5,7 +5,7 @@ import DropdownNavbar from "./DropdownNavbar";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center max-w-7xl mx-auto px-8 lg:px-0">
+    <div className="flex justify-between items-center max-w-7xl mx-auto px-8 lg:px-0 select-none">
       <Link href={"/"}>
         <Image
           src={"/logo.png"}
