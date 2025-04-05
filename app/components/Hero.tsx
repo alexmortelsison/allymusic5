@@ -24,7 +24,7 @@ export default function Hero() {
         </p>
         <BuyTicketButton />
       </div>
-      <div className="w-full 2xl:w-2/3 mx-auto px-4 md:px-8 absolute bottom-3">
+      <div className="w-full 2xl:w-max flex justify-center px-4 md:px-8">
         <Schedule />
       </div>
     </div>
