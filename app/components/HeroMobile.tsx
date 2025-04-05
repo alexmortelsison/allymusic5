@@ -3,14 +3,14 @@ import Schedule from "./Schedule";
 
 export default function HeroMobile() {
   return (
-    <div className="flex flex-col justify-center items-center md:hidden">
+    <div className="flex flex-col justify-center items-center md:hidden h-[80vh]">
       <Image
         src={"/bgm.png"}
         alt="bgm"
         fill
         className="object-cover lg:hidden -z-50"
       />
-      <div className="flex flex-col justify-center items-center text-center px-12 ">
+      <div className="flex flex-col justify-center items-center text-center px-12 pb-32">
         <h1 className="font-bold text-8xl">DIONELA</h1>
         <p className="leading-5 pt-4">
           Join Dionela for an unforgettable live performance! Get your tickets
@@ -22,7 +22,7 @@ export default function HeroMobile() {
           </button>
         </div>
       </div>
-      <div className="w-screen px-2">
+      <div className="w-full">
         <Schedule />
       </div>
     </div>

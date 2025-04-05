@@ -14,7 +14,7 @@ export default function Hero() {
           className="object-cover -z-50 brightness-80"
         />
       </div>
-      <div className="flex flex-col justify-center items-center mt-2 md:mt-100 lg:mt-58 2xl:mt-80 max-w-7xl mx-auto">
+      <div className="flex flex-col justify-center items-center md:mt-100 lg:mt-58 2xl:mt-80 max-w-7xl mx-auto">
         <h1 className="font-bold text-8xl md:text-9xl 2xl:text-[170px] tracking-tight">
           DIONELA
         </h1>

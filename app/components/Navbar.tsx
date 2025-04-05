@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
-import DropdownNavbar from "./DropdownNavbar";
+import SheetBar from "./SheetBar";
 
 export default function Navbar() {
   return (
@@ -23,7 +23,7 @@ export default function Navbar() {
           Contact
         </button>
       </div>
-      <DropdownNavbar />
+      <SheetBar />
     </div>
   );
 }
