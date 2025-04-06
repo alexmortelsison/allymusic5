@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function AllConcertsPage() {
+export default function ConcertsPage() {
   return (
     <div>
       <div>

@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   {
-    name: "All Concerts",
-    href: "/allconcerts",
+    name: "Concerts",
+    href: "concerts",
   },
   {
     name: "Photo Ops",
