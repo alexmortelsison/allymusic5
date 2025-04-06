@@ -38,13 +38,14 @@ export default function SheetBar() {
   const pathName = usePathname();
   return (
     <Sheet>
-      <SheetTrigger className="md:hidden">
+      <SheetTrigger className="lg:hidden">
         <BiMenuAltRight size={25} />
       </SheetTrigger>
       <SheetContent>
         <SheetHeader className="flex justify-center items-center mt-12">
           <SheetTitle>Menu</SheetTitle>
           <SheetDescription
+            asChild
             className={`flex flex-col text-center space-y-4 mt-8`}
           >
             {navLinks.map((item) => (

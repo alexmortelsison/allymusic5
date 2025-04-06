@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function WhatsHappening() {
   return (
-    <div className="md:mt-44 max-w-7xl mx-auto md:pt-16 md:pt-32 h-[70vh] px-4">
+    <div className="md:mt-44 max-w-7xl mx-auto md:pt-16 h-[70vh] px-4">
       <div className="flex items-center justify-between">
         <h1 className="md:text-5xl text-3xl font-bold">
           What&apos;s happening
