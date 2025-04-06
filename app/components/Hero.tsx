@@ -4,7 +4,7 @@ import BuyTicketButton from "./BuyTicketButton";
 
 export default function Hero() {
   return (
-    <div className="z-10 tracking-tighter lg:flex justify-center text-center items-center h-[70vh] hidden">
+    <div className="z-10 tracking-tighter md:flex justify-center text-center items-center h-[70vh] hidden">
       <div className="">
         <div>
           <Image
@@ -26,7 +26,9 @@ export default function Hero() {
                 tickets now for a night of great music and unforgettable
                 moments.
               </p>
-              <BuyTicketButton />
+              <div className="pt-32">
+                <BuyTicketButton />
+              </div>
               <Schedule />
             </div>
           </div>

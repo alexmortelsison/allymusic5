@@ -16,7 +16,7 @@ export default function WhatsHappening() {
       <p className="text-3xl pt-4 ">TJ Monterde</p>
       <p className="text-gray-400">March 30, 2025</p>
       <p className="text-gray-400">The Palladium, Los Angeles</p>
-      <div className="grid grid-cols-1 md:grid-cols-3 pt-8 space-x-4 space-y-4 place-items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 pt-8 space-x-4 space-y-4 place-items-center">
         <div className="border h-[300px] w-[300px]  md:h-[400px] md:w-[400px] flex flex-col items-center p-8 rounded-4xl shadow-md hover:scale-110 duration-200 shadow-pink-700">
           <Image
             src={"/tj1.png"}
