@@ -23,7 +23,9 @@ export default function Navbar() {
           Contact
         </button>
       </div>
-      <SheetBar />
+      <div className="md:hidden">
+        <SheetBar />
+      </div>
     </div>
   );
 }

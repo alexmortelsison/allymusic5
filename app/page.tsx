@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import HeroMobile from "./components/HeroMobile";
+import Socials from "./components/Socials";
 import WhatsHappening from "./components/WhatsHappening";
 import Image from "next/image";
 
@@ -10,7 +11,7 @@ export default function Home() {
       <HeroMobile />
       <WhatsHappening />
       <>
-        <div className="z-10 tracking-tighter flex flex-col justify-center text-center my-44 h-[70vh] max-w-7xl mx-auto ">
+        <div className="z-10 tracking-tighter flex flex-col justify-center text-center my-44 h-[70vh] max-w-7xl mx-auto pt-240 md:pt-0">
           <h1 className="text-5xl">About Us.</h1>
           <div className="">
             <div>
@@ -24,7 +25,7 @@ export default function Home() {
                   loading="eager"
                   className="object-cover -z-50"
                 />
-                <p className="w-2/3 text-xl leading-10">
+                <p className="md:w-2/3 md:text-xl px-4 md:px-0 leading-10 pb-8">
                   As a leading music production company, Ally Music is dedicated
                   to bringing talented artists from around the world to showcase
                   their unique music and performances. Our mission is to bridge
@@ -42,6 +43,9 @@ export default function Home() {
                   Join us on this exciting journey as we continue to bring the
                   best in music to life.
                 </p>
+                <div>
+                  <Socials />
+                </div>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ import BuyTicketButton from "./BuyTicketButton";
 
 export default function Hero() {
   return (
-    <div className="z-10 tracking-tighter flex justify-center text-center items-center h-[70vh]">
+    <div className="z-10 tracking-tighter lg:flex justify-center text-center items-center h-[70vh] hidden">
       <div className="">
         <div>
           <Image

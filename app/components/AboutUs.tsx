@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Socials from "./Socials";
 
 export default function AboutUs() {
   return (
@@ -42,6 +43,9 @@ export default function AboutUs() {
               experiences for fans. Join us on this exciting journey as we
               continue to bring the best in music to life.
             </p>
+            <div>
+              <Socials />
+            </div>
           </div>
         </div>
       </div>

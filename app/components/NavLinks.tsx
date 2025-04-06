@@ -10,7 +10,7 @@ const navLinks = [
   },
   {
     name: "Photo Ops",
-    href: "/photops",
+    href: "/photoops",
   },
   {
     name: "About",
