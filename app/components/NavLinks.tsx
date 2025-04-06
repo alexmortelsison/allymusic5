@@ -21,7 +21,7 @@ const navLinks = [
 export default function NavLinks() {
   const pathName = usePathname();
   return (
-    <div className="md:flex space-x-8 hidden">
+    <div className="md:flex space-x-8 hidden z-50">
       {navLinks.map((link) => (
         <div key={link.href}>
           <Link

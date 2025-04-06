@@ -5,14 +5,14 @@ import SheetBar from "./SheetBar";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center max-w-7xl mx-auto px-8 lg:px-0 select-none">
+    <div className="flex justify-between items-center max-w-7xl mx-auto px-8 lg:px-0 select-none z-20">
       <Link href={"/"}>
         <Image
           src={"/logo.png"}
           alt="logo"
           width={120}
           height={120}
-          className="object-cover"
+          className="object-cover hover:opacity-90"
         />
       </Link>
       <div className="hidden lg:flex">

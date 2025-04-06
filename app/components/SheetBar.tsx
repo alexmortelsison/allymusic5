@@ -38,7 +38,7 @@ export default function SheetBar() {
   const pathName = usePathname();
   return (
     <Sheet>
-      <SheetTrigger>
+      <SheetTrigger className="md:hidden">
         <BiMenuAltRight size={25} />
       </SheetTrigger>
       <SheetContent>
