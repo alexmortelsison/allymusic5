@@ -11,7 +11,7 @@ export default function Home() {
       <HeroMobile />
       <WhatsHappening />
       <>
-        <div className="z-10 tracking-tighter flex flex-col justify-center text-center my-44 h-[70vh] max-w-7xl mx-auto pt-300 md:pt-320 lg:pt-0">
+        <div className="z-10 tracking-tighter flex flex-col justify-center text-center my-44 h-[70vh] max-w-7xl mx-auto pt-260 md:pt-320 lg:pt-0">
           <h1 className="text-5xl">About Us.</h1>
           <div className="">
             <div>
