@@ -3,7 +3,7 @@ import Schedule from "./Schedule";
 
 export default function HeroMobile() {
   return (
-    <div className="flex flex-col justify-center items-center md:hidden h-[100vh]">
+    <div className="flex flex-col justify-center items-center md:hidden h-[90vh]">
       <Image
         src={"/bgm.png"}
         alt="bgm"
@@ -16,7 +16,7 @@ export default function HeroMobile() {
           Join Dionela for an unforgettable live performance! Get your tickets
           now for a night of great music and unforgettable moments.
         </p>
-        <div className="pt-48">
+        <div className="pt-24">
           <button className="bg-pink-700 px-16 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
             Buy Tickets
           </button>
