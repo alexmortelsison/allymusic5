@@ -17,12 +17,12 @@ const navLinks = [
     href: "/",
   },
   {
-    name: "All Concerts",
-    href: "/allconcerts",
+    name: "Concerts",
+    href: "/concerts",
   },
   {
     name: "Photo Ops",
-    href: "/photops",
+    href: "/photoops",
   },
   {
     name: "About",
