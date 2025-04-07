@@ -15,9 +15,10 @@ export default function DownloadImage() {
               <Image
                 src={item.image}
                 alt="image"
-                fill
+                width={40}
                 loading="eager"
-                className="object-cover"
+                height={40}
+                className="object-cover w-[180px] h-[200px]"
               />
               <a href={item.image} download={item.image}>
                 <button className="absolute top-0 right-2 flex justify-center items-center text-center cursor-pointer hover:text-blue-600">
