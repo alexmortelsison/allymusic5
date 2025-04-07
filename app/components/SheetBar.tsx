@@ -48,20 +48,22 @@ export default function SheetBar() {
             asChild
             className={`flex flex-col text-center space-y-4 mt-8`}
           >
-            {navLinks.map((item) => (
-              <div key={item.href} className="w-full">
-                <Link
-                  href={item.href}
-                  className={`px-16 py-2 rounded-4xl ${
-                    pathName === item.href
-                      ? "font-semibold text-white"
-                      : "text-gray-400 hover:bg-gray-600"
-                  }`}
-                >
-                  {item.name}
-                </Link>
-              </div>
-            ))}
+            <div>
+              {navLinks.map((item) => (
+                <div key={item.href} className="w-full">
+                  <Link
+                    href={item.href}
+                    className={`px-16 py-2 rounded-4xl ${
+                      pathName === item.href
+                        ? "font-semibold text-white"
+                        : "text-gray-400 hover:bg-gray-600"
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                </div>
+              ))}
+            </div>
           </SheetDescription>
         </SheetHeader>
       </SheetContent>
