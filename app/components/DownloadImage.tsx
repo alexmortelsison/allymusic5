@@ -10,7 +10,7 @@ export default function DownloadImage() {
           {imageLinks.map((item) => (
             <div
               key={item.image}
-              className="border md:h-[200px] md:w-[180px] h-[200px] w-[200px] relative hover:scale-110 duration-200"
+              className="border md:h-[200px] md:w-[180px] relative hover:scale-110 duration-200"
             >
               <Image
                 src={item.image}

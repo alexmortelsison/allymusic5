@@ -4,7 +4,7 @@ import Socials from "../components/Socials";
 export default function AboutPage() {
   return (
     <div className="z-10 tracking-tighter flex flex-col justify-center text-center h-[70vh] max-w-7xl mx-auto pt-140 md:pt-90 lg:pt-48 px-4 md:px-0">
-      <h1 className="text-5xl">About Us.</h1>
+      <h1 className="md:text-5xl text-3xl pt-8 md:pt-0">About Us.</h1>
       <div className="">
         <div>
           <div className="flex flex-col justify-center items-center">
