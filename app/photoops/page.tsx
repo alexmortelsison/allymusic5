@@ -6,7 +6,7 @@ export default function PhotoOpsPage() {
       <h1 className="px-14 lg:px-0 md:text-4xl text-center">
         Relive The Experience.
       </h1>
-      <div className="pt-8  max-w-7xl mx-auto flex justify-center">
+      <div className="pt-8 max-w-7xl mx-auto flex justify-center">
         <DownloadImage />
       </div>
     </div>
