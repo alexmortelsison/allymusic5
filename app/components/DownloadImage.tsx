@@ -6,7 +6,7 @@ export default function DownloadImage() {
   return (
     <div className="">
       <div className="">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:px-0 pt-4 space-x-4 space-y-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:px-0 pt-4 space-x-4 space-y-4 pb-24">
           {imageLinks.map((item) => (
             <div
               key={item.image}
