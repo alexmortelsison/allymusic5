@@ -19,9 +19,11 @@ export default function Navbar() {
         <NavLinks />
       </div>
       <div className="hidden lg:flex">
-        <button className="bg-pink-700 px-12 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
-          Contact
-        </button>
+        <Link href={"/contact"}>
+          <button className="bg-pink-700 px-12 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
+            Contact
+          </button>
+        </Link>
       </div>
       <div className="lg:hidden">
         <SheetBar />
