@@ -17,9 +17,14 @@ export default function HeroMobile() {
           now for a night of great music and unforgettable moments.
         </p>
         <div className="pt-24">
-          <button className="bg-pink-700 px-16 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
-            Buy Tickets
-          </button>
+          <a
+            href="https://www.eventbrite.com/e/dionela-in-new-york-city-tickets-1315840447199?aff=oddtdtcreator"
+            target="_blank"
+          >
+            <button className="bg-pink-700 px-16 py-2 rounded-4xl hover:bg-pink-800 cursor-pointer">
+              Buy Tickets
+            </button>
+          </a>
         </div>
       </div>
       <div className="w-full">
