@@ -41,9 +41,14 @@ export default function ConcertsPage() {
                   className="md:h-[30px]md:hidden text-white md:text-pink-700 pr-2"
                   size={30}
                 />
-                <p className="text-nowrap text-white md:text-pink-700 font-bold">
-                  Buy Ticket
-                </p>
+                <a
+                  href="https://www.eventbrite.com/e/dionela-in-new-york-city-tickets-1315840447199?aff=oddtdtcreator"
+                  target="_blank"
+                >
+                  <p className="text-nowrap text-white md:text-pink-700 font-bold">
+                    Buy Ticket
+                  </p>
+                </a>
               </div>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WhatsHappening() {
   return (
@@ -8,10 +9,13 @@ export default function WhatsHappening() {
         <h1 className="md:text-5xl text-3xl font-bold">
           What&apos;s happening
         </h1>
-        <div className="flex items-center space-x-2 hover:opacity-90 cursor-pointer">
-          <BsArrowUpRightCircle size={40} />
-          <p>See photos</p>
-        </div>
+        <Link href={"/photoops"}>
+          <div className="flex items-center space-x-2 hover:opacity-90 cursor-pointer">
+            <BsArrowUpRightCircle size={40} />
+
+            <p>See photos</p>
+          </div>
+        </Link>
       </div>
       <p className="text-3xl pt-4 ">TJ Monterde</p>
       <p className="text-gray-400">March 30, 2025</p>
